@@ -1,0 +1,11 @@
+﻿Build started 11/18/2015 10:53:21 PM.
+     1>Project "C:\Users\Chan\Desktop\CPP\CS 408\C-Prog\sortasmOri\sortasmOri\sortasmOri.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt sortasmOri.c
+         sortasmOri.c
+     1>c:\users\chan\desktop\cpp\cs 408\c-prog\sortasmori\sortasmori\sortasmori.c(11): warning C4244: 'function' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Done Building Project "C:\Users\Chan\Desktop\CPP\CS 408\C-Prog\sortasmOri\sortasmOri\sortasmOri.vcxproj" (ClCompile target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.09
