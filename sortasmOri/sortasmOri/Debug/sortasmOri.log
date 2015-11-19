@@ -1,11 +1,14 @@
-﻿Build started 11/18/2015 10:53:21 PM.
-     1>Project "C:\Users\Chan\Desktop\CPP\CS 408\C-Prog\sortasmOri\sortasmOri\sortasmOri.vcxproj" on node 2 (ClCompile target(s)).
+﻿Build started 11/19/2015 12:27:19 PM.
+     1>Project "C:\Users\William\Source\Repos\408C\sortasmOri\sortasmOri\sortasmOri.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt sortasmOri.c
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt sortasmOri.c
          sortasmOri.c
-     1>c:\users\chan\desktop\cpp\cs 408\c-prog\sortasmori\sortasmori\sortasmori.c(11): warning C4244: 'function' : conversion from 'time_t' to 'unsigned int', possible loss of data
-     1>Done Building Project "C:\Users\Chan\Desktop\CPP\CS 408\C-Prog\sortasmOri\sortasmOri\sortasmOri.vcxproj" (ClCompile target(s)).
+     1>c:\users\william\source\repos\408c\sortasmori\sortasmori\sortasmori.c(11): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\William\Source\Repos\408C\Debug\sortasmOri.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\William\Source\Repos\408C\Debug\sortasmOri.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\William\Source\Repos\408C\Debug\sortasmOri.lib" /MACHINE:X86 Debug\sortasmOri.obj
+         sortasmOri.vcxproj -> C:\Users\William\Source\Repos\408C\Debug\sortasmOri.exe
+     1>Done Building Project "C:\Users\William\Source\Repos\408C\sortasmOri\sortasmOri\sortasmOri.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.09
+Time Elapsed 00:00:00.57

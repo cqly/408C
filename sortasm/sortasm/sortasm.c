@@ -9,19 +9,16 @@ int _tmain(int argc, _TCHAR* argv[])
 {
 	int i = 0, j = 0, temp = 0;
 	srand(time(NULL));
-	clock_t start, end;
-	double diff;
 
 	for (i = 0; i < 10; i++) {
 		array[i] = rand() % 100;
 	}
 
+	printf("\t[Original]\n");
 	printf("Original: ");
 	for (i = 0; i < 10; i++) {
 		printf("%d ", array[i]);
 	}
-
-	start = clock();
 
 	for( i = 0; i < 10; i++)
 	{
@@ -36,16 +33,12 @@ int _tmain(int argc, _TCHAR* argv[])
 		}
 	}
 
-	end = clock();
-
 	printf("\nSorted:   ");
 	for (i = 0; i < 10; i++) {
 		printf("%d ", array[i]);
 	}
-	
-	diff = (double)(end - start) / CLOCKS_PER_SEC;
-	printf("\nTime: %f seconds\n", diff);
 
+	printf("\n");
 	system("pause");
 
 	return 0;
